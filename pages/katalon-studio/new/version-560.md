@@ -1,40 +1,38 @@
 ---
-title: "Version 5.6.0"
+title: Version 1.2.0
 sidebar: katalon_studio_new_sidebar
 permalink: katalon-studio/new/version-560.html
 redirect_from:
-    - "/display/KD/Version+5.6.0/"
-    - "/display/KD/Version%205.6.0/"
-    - "/x/dA3R/"
-    - "/katalon-studio/new/version-560/"
+  - /display/KD/Version+5.6.0/
+  - /display/KD/Version%205.6.0/
+  - /x/dA3R/
+  - /katalon-studio/new/version-560/
 description:
 ---
-Enhance In-app Support
-----------------------
 
-**Online Help **and **Community Chat **are now available within Katalon Studio, and we also update Katalon Studio in-app help links to match with our latest user guide. With all the resources at your fingertips, you can get help right away from the Katalon Team and our community to support your automation testing journey.
+## General Enhancements
 
-![](../../images/katalon-studio/new/version-560/image2018-8-1-143A143A40.png)
+An installer has been added to the ISO/USB image. [Edge-235]
 
-Improve Katalon Analytics Integration
--------------------------------------
+Various usability improvements have been made to the Web UI.
 
-**Test Execution History** can be viewed directly at a specific Test Case or Test Suite View. The project team can quickly know the performance of the test and identify the trouble areas to optimize overall test executions. You can also access a specific test report on Katalon Analytics directly from Katalon Studio, reducing the time it takes to identify an execution on Katalon Analytics.
+## DeviceHub
 
-![](../../images/katalon-studio/new/version-560/Screen-Shot-2018-07-31-at-11.52.48-AM.png)
+1. The following drivers are now supported:
+2. Omron NJ drivers [Edge-927]
+3. Omron CJ serial driver [Edge-1038]
+4. Siemens Profibus DP driver [Edge-928]
+5. Master K80-S serial driver [Edge-937]
+6. GE Fanuc 90/30 ethernet driver [Edge-1027]
+7. GE Fanuc CMM serial driver [Edge-1037]
+8. PLC-5 controller connect/disconnect issues have been fixed and extended file registers have been added. [Edge-1029]
+9. Downloading of a CSV file now ensures that the register descriptions are downloaded. [Edge-961]
+10. A backup/restore timeout issue was fixed in this release. [Edge-1069]
 
-Improve Web Record/Spy Utility 
--------------------------------
+## Marketplace
 
-*   **Web ****Record/Spy** Utility is improved to support **Firefox Active Mode**. Now you can record right on the opened Firefox browser without wasting system resource to open a new browser instance. 
-*   **Improve execution mechanism when 'element can't be found' error**: Katalon Studio will try to use other element's properties using heuristic method to locate the element and log the result for you. Test execution still returns FAILURE, since it is not guaranteed to be correct and the decision should be made by users.
+1. An issue that caused the LoopEdge controller to have performance issues when using Marketplace has been fixed in this release. [Edge-288]
 
-*   **Better** objects recognition for **dropdown**using **Record Web** Utility. 
+## Known Issues
 
-
-Bugs Fixed & Improvements
--------------------------
-
-*   **Add Sample Project option within 'Create New Project' dialogue: **'Create new project' pop-up now have the options to create a new sample project to help save time and cut down repetitive steps.
-
-*   **Reduce Katalon Studio** package size by 10%
+1. TUI: Setting the time manually does not work even though it is present in TUI menus.
