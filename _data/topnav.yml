@@ -1,26 +1,22 @@
-## Topnav single links
-## if you want to list an external url, use external_url instead of url. the theme will apply a different link base.
 topnav:
-- title: Topnav
-  items:
-    - title: Manuals
-      url: /katalon-studio/docs/index.html
-      parenturl: /katalon-studio/docs
-    - title: Tutorials
-      url: /katalon-studio/tutorials/index.html
-      parenturl: /katalon-studio/tutorials
-    - title: Videos
-      url: /katalon-studio/videos/index.html
-      parenturl: /katalon-studio/videos
-    - title: Samples
-      external_url: https://github.com/katalon-studio-samples
-    - title: FAQs
-      url: /faqs/licensing.html
-      parenturl: /faqs
-    - title: SDK
-      external_url: https://api-docs.katalon.com/index.html
-    - title: What's new
-      url: /katalon-studio/new/index.html
-      parenturl: /katalon-studio/new
-    - title: Support
-      external_url: https://www.katalon.com/support-service-options
+  - title: Topnav
+    items:
+      - title: Manuals
+        url: /katalon-studio/docs/index.html
+        parenturl: /katalon-studio/docs
+      - title: Tutorials
+        url: /katalon-studio/tutorials/index.html
+        parenturl: /katalon-studio/tutorials
+      - title: Videos
+        url: /katalon-studio/videos/index.html
+        parenturl: /katalon-studio/videos
+      - title: Samples
+        external_url: 'https://github.com/katalon-studio-samples'
+      - title: FAQs
+        url: /faqs/licensing.html
+        parenturl: /faqs
+      - title: SDK
+        external_url: 'https://api-docs.katalon.com/index.html'
+      - title: What's new
+        url: /katalon-studio/new/index.html
+        parenturl: /katalon-studio/new
