@@ -12,7 +12,7 @@ description:
 
 LoopEdge is an operating system on an Industrial PC (IPC) appliance. See Why LoopEdge is a Whole OS This edge-level software seamlessly collects data from IoT devices/systems (such as sensors and PLCs) and integrates the data into the cloud or into on-premise enterprise systems. Extensive knowledge of 35+ device drivers, both legacy and newer systems, enables LoopEdge to manage the variety of devices in an industrial environment. LoopEdge software provides support for many protocols/buses (RS232, RS485, CAN, Ethernet, Fieldbus, etc.) via an IPC appliance that is connected to the Internet. The raw or processed data can be visualized and analyzed at the edge or sent to LoopCloud, near real time.
 
-What are the LoopEdge Advantages?
+## What are the LoopEdge Advantages?
 
 Device Connectivity
 
