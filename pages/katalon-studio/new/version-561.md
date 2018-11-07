@@ -12,6 +12,8 @@ description:
 
 ## LoopEdge 1.2.1 Release Notes
 
+&nbsp;
+
 Skip to end of metadataGo to start of metadata
 
 What's New in this Release?
