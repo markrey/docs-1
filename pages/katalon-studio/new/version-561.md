@@ -9,14 +9,30 @@ redirect_from:
     - "/katalon-studio/new/version-561/"
 description:
 ---
-Hotfix release
---------------
 
-Address the following issues:
+## LoopEdge 1.2.1 Release Notes
 
-*   Fix an issue where current actions can't be recorded if pressing too long on an element
-*   Can't record/spy on Chrome/Firefox using a port different from 50000
+Skip to end of metadataGo to start of metadata
 
-> Want an older version?
->
-> Refer to this [guide](/display/KD/Getting+Started#GettingStarted-Download) on how to download an older Katalon Studio version.
+What's New in this Release?
+
+The following enhancements and bug fixes are included in this software release.
+
+### What's New in this Release?
+
+DeviceHub
+
+Known Issues
+
+### DeviceHub
+
+The following enhancements have been made to support existing device drivers:
+
+1. Added the multi-register capability to the Modbus ASCII driver.
+2. Added the multi-register capability to the Modbus RTU driver.&nbsp;
+3. Added the multi-register capability to the Modbus TCP driver.&nbsp;
+4. Added support for the Omron peripheral driver.
+
+### Known Issues
+
+TUI: Setting the time manually does not work even though it is present in TUI menus.
