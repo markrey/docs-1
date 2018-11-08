@@ -10,44 +10,35 @@ redirect_from:
     
 description:
 ---
-Introducing all-new API/Web Service Testing Project
----------------------------------------------------
 
-The release of Katalon Studio 5.8 introduces the new API/Web Service testing project with exclusive features including Web Service **_Quickstart_** wizard, **_Import Swagger 2.0_** or **_WSDL_** definition File/URL directly, or retrieve **_Request History_** at any time. This significantly improved allows you to separate the API/Web Service testing from Web UI and Mobile testing - less confusion for your projects.
+## LoopEdge 1.3.2 Release Notes
 
-The API/Web Service project is specialized designed to help you to accelerate automation tasks in Katalon Studio. The update also comes with a new interface, including a new toolbar and view that serve only for API/Web Service testing.
+### What's New in this Release?
 
-![](../../images/katalon-studio/new/version-58/New-API.png)
+The following enhancements and bug fixes are included in this software release.
 
-### Creating or Importing Web Service request instantly with Quick Start Wizard
+Note that each item includes a reference number, such as [Edge-730], which is used for internal tracking purposes.
 
-The QuickStart wizard allows you to quickly Import Swagger 2.0/WSDL definition or Create Draft REST/SOAP request to try out with variation of testing data requirements. When importing web service definition, Katalon Studio will load specified information and populated into your project so you don't have to spend time converting them manually. This wizard can be relaunched anytime in _Help_ \> _Quick Start_. 
+**What's New in this Release?**
 
-![](../../images/katalon-studio/new/version-58/Screen-Shot-2018-10-09-at-4.41.24-PM.png)
+* Upgrade Path
+* Bug Fixes
+* Known Issues
 
-### Request History
+### Upgrade Path
 
-All web service requests sending in Katalon Studio are stored in the Request History panel in which you can retrieve anytime.
+* Upgrades using the .upd file are supported from version 1.0.3 (and later) to this current 1.3.2 version.
+* After upgrading, take a LoopEdge backup.
 
-![](../../images/katalon-studio/new/version-58/Screen-Shot-2018-10-05-at-3.16.04-PM.png)
+### Bug Fixes
 
-### Adding Web Service request directly to new or existing Test Case
+1. Fixed an issue where the Terminal User Interface (TUI) occasionally hung after installation/upgrade, with a "Waiting for Device Management" error. [Edge-1254]
+2. Fixed a reboot issue that occurred only on Vantron devices. [Edge-1192]
 
-The web service request object can be added directly to test case from the object details view. There are two options available
+### Known Issues
 
-*   Add to new Test Case
-*   Add to existing Test Case
+* TUI: Setting the time manually does not work even though it is present in TUI menus.
+* Only select LTE modems/providers are supported. This has been tested with AT&T.
+* Cloud connectors feature is still considered experimental and is in active development.
 
-![](../../images/katalon-studio/new/version-58/Screen-Shot-2018-10-05-at-3.17.25-PM.png)
-
-### Support PATCH HTTP method
-
-Katalon Studio now support **PATCH** HTTP method to help you apply a partial modification to resources. 
-
-![](../../images/katalon-studio/new/version-58/Screen-Shot-2018-10-08-at-11.35.42-AM.png)
-
-Fixed Bugs
-----------
-
-*   Fix an issue where local URL can't be used for SOAP request.
-*   Remove error message displayed when users create a new sample project.
+&nbsp;
