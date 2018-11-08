@@ -9,9 +9,41 @@ redirect_from:
     - "/katalon-studio/new/version-563/"
 description:
 ---
-Bug Fixes and Improvements for Record Web Utility
--------------------------------------------------
 
-*   Fix an issue where 'Click' action can't be recorded in some cases.
-*   Fix right-click issues where some users cannot capture the action.
-*   Add "Switch to Window Title" event in Record Web Utility when interacting on elements of different windows.
+## LoopEdge 1.2.2 Release Notes
+
+Skip to end of metadataGo to start of metadata
+
+### What's New in this Release?
+
+The following enhancements and bug fixes are included in this software release.
+
+Note that each item includes a reference number, such as [Edge-730], which is used for internal tracking purposes.
+
+### What's New in this Release?
+
+DeviceHub
+
+Flows
+
+Terminal User Interface (TUI)
+
+Known Issues
+
+### DeviceHub
+
+Added the multi-register feature to the Modbus UDP driver. [Edge-933]
+
+### Flows
+
+Added OS nodes to Flows. This enables collection of CPU system information. [Edge-773]
+
+### Terminal User Interface (TUI)
+
+Miscellaneous textual updates were made to improve the user experience. [Edge-1065]
+
+Improved the workflow for changing a password for first-time logins. [Edge-1070]
+
+### Known Issues
+
+TUI: Setting the time manually does not work even though it is present in TUI menus.
